@@ -1,0 +1,61 @@
+header {
+  background-color: white;
+  /*background-color: greenyellow;*/
+  padding-top: 10px;
+  position: absolute;
+  width: 70%;
+}
+
+.coffe-logo-container {
+  display: inline-block;
+}
+
+.coffe-logo {
+  border-radius: 100%;
+  border: solid 2px;
+  border-color: #6d4725;
+  width: 100px;
+}
+
+.header-menu {
+  /*background-color: aqua;*/
+  display: inline-block;
+  line-height: 100px;
+  float: right;
+  vertical-align: baseline;
+}
+
+.header-menu-link {
+  /*background-color: blanchedalmond;*/
+  display: inline;
+  color: #6d4725;
+  text-decoration: none;
+}
+
+.header-menu-link a:hover {
+  color: #F3DEC3;
+}
+
+@media (max-width: 640px) {
+  header {
+    position: inherit;
+    float: left;
+    width: 100%;
+  }
+  .coffe-logo-container {
+    /*background-color: yellow;*/
+    display: block;
+    text-align: center;
+  }
+
+  .header-menu {
+    /*background-color: red;*/
+    display: block;
+    width: 100%;
+  }
+
+  .header-menu-link {
+    display: block;
+    text-align: center;
+  }
+}

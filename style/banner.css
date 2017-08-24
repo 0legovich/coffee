@@ -1,0 +1,17 @@
+.banner {
+  background: radial-gradient(ellipse at center, rgba(144, 82, 2, 0.30), rgba(144, 82, 2, 0.10)), url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-size: auto;
+  background-position: 50% 0px;
+
+  padding-top: 190px;
+  padding-bottom: 160px;
+}
+
+@media (max-width: 640px) {
+  .banner {
+    padding-top: 490px;
+  }
+
+}
