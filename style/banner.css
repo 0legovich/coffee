@@ -1,5 +1,5 @@
 .banner {
-  background: radial-gradient(ellipse at center, rgba(144, 82, 2, 0.30), rgba(144, 82, 2, 0.10)), url("../img/banner.jpg");
+  background: radial-gradient(ellipse at center, rgba(144, 82, 2, 0.30), rgba(144, 82, 2, 0.10));
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   background-size: auto;
