@@ -11,6 +11,11 @@ body {
   margin-top: 60px;
 }
 
+.buffer-sides {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .content-container {
   margin-top: 40px;
   width: 100%;
@@ -88,9 +93,19 @@ body {
 }
 
 .img-content-container:hover {
-  height: 800px;
-  position: relative;
-  right: 65%;
+  display: block;
+  margin: 0 auto;
+  background-color: yellow;
+  height: 20%;
+  float: none;
+  /*-webkit-transform:scale(2.6); Webkit: Scale up image to 1.2x original size*/
+  /*-moz-transform:scale(2.6); Mozilla scale version*/
+  /*-o-transform:scale(2.6); Opera scale version*/
+}
+
+.img-content-container:hover .img-in-block {
+  height: 100%;
+  width: 100%;
 }
 
 footer {

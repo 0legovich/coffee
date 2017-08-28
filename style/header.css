@@ -2,6 +2,7 @@ header {
   background-color: white;
   /*background-color: greenyellow;*/
   padding-top: 10px;
+  padding-bottom: 10px;
   position: absolute;
   width: 70%;
 }
