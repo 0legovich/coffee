@@ -87,23 +87,13 @@ body {
 }
 
 .img-content-container {
-  height: 300px;
-  float: right;
-  display: inline-block;
-}
-
-.img-content-container:hover {
   display: block;
   margin: 0 auto;
-  background-color: yellow;
   height: 20%;
   float: none;
-  /*-webkit-transform:scale(2.6); Webkit: Scale up image to 1.2x original size*/
-  /*-moz-transform:scale(2.6); Mozilla scale version*/
-  /*-o-transform:scale(2.6); Opera scale version*/
 }
 
-.img-content-container:hover .img-in-block {
+.img-content-container .img-in-block {
   height: 100%;
   width: 100%;
 }
